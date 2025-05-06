@@ -17,7 +17,6 @@ Step 2 gives us the actual output that the competition required.
 
 #### How to Run
 You can run the program using Docker.
-Run the following command then navigate to localhost:7777.
 
 First, within the repo directory, run the following command:
 `docker build -t 539-project .`
