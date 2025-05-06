@@ -5,7 +5,7 @@ In this project, I attempted the Kaggle project found at this link:
 https://www.kaggle.com/competitions/tweet-sentiment-extraction/overview
 
 My data was downloaded directly from their competition site, but for sake of ease I also linked it here:
-TODO
+https://drive.google.com/drive/folders/1amT9XWo2JRiT_O9Q4lvSHpzQGjHj5u94?usp=sharing
 
 #### Goal
 In approaching this project, I divided it into two primary steps.
