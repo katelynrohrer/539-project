@@ -1,1 +1,22 @@
 # 539-project
+
+
+In this project, I attempted the Kaggle project found at this link:
+https://www.kaggle.com/competitions/tweet-sentiment-extraction/overview
+
+My data was downloaded directly from their competition site, but for sake of ease I also linked it here:
+TODO
+
+#### Goal
+In approaching this project, I divided it into two primary steps.
+Step 1: Classify the sentiment of the tweets as positive, neutral, or negative
+Step 2: Determine which subset of the text most contributed to the overall sentiment of the tweet
+
+Step 2 gives us the actual output that the competition required.
+
+
+#### How to Run
+You can run the program using Docker.
+Run the following command then navigate to localhost:7777.
+
+`docker run -it -p 7777:9999 -v "$PWD:/app/" uazhlt/pa-ngram-classifier:latest`
