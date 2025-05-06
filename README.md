@@ -19,4 +19,15 @@ Step 2 gives us the actual output that the competition required.
 You can run the program using Docker.
 Run the following command then navigate to localhost:7777.
 
+First, within the repo directory, run the following command:
+`docker build -t 539-project .`
+
+Once built, run the following:
+`docker run -it -p 7777:9999 -v "$PWD:/app/" 539-project`
+
+This will open the project on localhost:7777.
+
+For reference, the build took my system 510 seconds to run.
+The project runs the same on the given Docker build for this class,
+so if you'd prefer to not wait to build, this command works as well:
 `docker run -it -p 7777:9999 -v "$PWD:/app/" uazhlt/pa-ngram-classifier:latest`
